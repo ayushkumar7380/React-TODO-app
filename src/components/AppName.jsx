@@ -1,7 +1,7 @@
-function AppName (){
-return ( <h1>TODO React content App</h1>
-    
+import ayush from "./AppName.module.css"
 
+function AppName (){
+return ( <h1 className= {ayush.todoheading} >TODO React content App</h1>
 
 );
 }
