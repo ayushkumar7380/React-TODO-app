@@ -14,8 +14,16 @@ function App() {
     dueDate:"4/10/2025",
   },
   {
-    name: "do assignment",
+    name: "Do assignment",
     dueDate:"6/10/2025",
+  },
+  {
+    name: "Do homework",
+    dueDate:"8/10/2025",
+  },
+  {
+    name: "Go home",
+    dueDate:"10/10/2025",
   },
 
 ];

@@ -1,5 +1,4 @@
-
-
+import pari from "./Todoitem.module.css"
 function Todoitem ({todoName,todoDate}) {
   
 
@@ -12,7 +11,7 @@ function Todoitem ({todoName,todoDate}) {
           <div className="col-4">
             {todoDate}
           </div>
-          <div className="col-2"><button type="button" className="btn btn-danger ak_button">Delete</button></div>
+          <div className="col-2"><button type="button" className="btn btn-danger ak_button" id={pari.button}>Delete</button></div>
         </div>
       </div>
   );
