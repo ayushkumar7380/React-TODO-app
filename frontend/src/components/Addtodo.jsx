@@ -18,6 +18,12 @@ function Addtodo({ setItemList, getObject }) {
     console.log(dateText);
   };
 
+  // const setEmpty = () => {
+  //   setDateText("");
+  //   setNewItem("");
+  //   console.log("setEmptyCalled")
+  // };
+
   return (
     <div className={styles.items_container}>
       <div className="container items_container">
@@ -45,6 +51,7 @@ function Addtodo({ setItemList, getObject }) {
               onClick={(event) => {
                 getObject({ name: newItem, dueDate: dateText });
                 setItemList(event);
+                // setEmpty();
               }}
             >
               Add

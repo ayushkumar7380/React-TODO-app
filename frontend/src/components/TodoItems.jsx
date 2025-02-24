@@ -8,7 +8,7 @@ const TodoItems = ({ object, handleDelete }) => {
         {object.map((item, index) => (
           <Todoitem
             todoDate={item.dueDate}
-            key={item.name}
+            key={index}
             todoName={item.name}
             handleDelete={handleDelete}
             indexi={index}

@@ -1,4 +1,4 @@
-import pari from "./Todoitem.module.css";
+import styles from "./Todoitem.module.css";
 function Todoitem({ todoName, todoDate, handleDelete, indexi }) {
   return (
     <div className="container">
@@ -9,7 +9,7 @@ function Todoitem({ todoName, todoDate, handleDelete, indexi }) {
           <button
             type="button"
             className="btn btn-danger ak_button"
-            id={pari.button}
+            id={styles.button}
             onClick={() => {
               handleDelete(indexi);
             }}

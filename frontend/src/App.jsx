@@ -3,6 +3,8 @@ import Addtodo from "./components/Addtodo";
 import TodoItems from "./components/TodoItems";
 import "./App.css";
 import { useState } from "react";
+import FetchData from "./components/FetchData";
+import TestApp from "./components/TestApp";
 
 function App() {
   const todoItems = [
@@ -64,6 +66,8 @@ function App() {
         object={itemList}
         handleDelete={handleOnClickDeleteButton}
       ></TodoItems>
+      <FetchData></FetchData>
+      <TestApp></TestApp>
     </center>
   );
 }
