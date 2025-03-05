@@ -66,8 +66,8 @@ function App() {
         object={itemList}
         handleDelete={handleOnClickDeleteButton}
       ></TodoItems>
-      <FetchData></FetchData>
-      <TestApp></TestApp>
+      {/*<FetchData></FetchData>
+      <TestApp></TestApp>*/}
     </center>
   );
 }
